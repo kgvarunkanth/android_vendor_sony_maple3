@@ -462,9 +462,8 @@ android_app_import {
 	name: "TimeService",
 	owner: "sony",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
-	certificate: ":timeservice_app_cert-legacy-um",
 	dex_preopt: {
-		enabled: false,
+	enabled: false,
 	},
 	soc_specific: true,
 }
